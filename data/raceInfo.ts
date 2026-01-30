@@ -1,3 +1,5 @@
+import { getAssetPath } from "../utils/basePath";
+
 export interface RaceInfoItem {
     title: string;
     highlight: string;
@@ -9,12 +11,13 @@ export const raceInfo: RaceInfoItem[] = [
     {
         title: "Uniquely formulated for horse trainers",
         highlight: "Who Want to Win",
-        image: "/assets/who-wants-to-win.jpg",
+        image: getAssetPath("/assets/who-wants-to-win.jpg"),
     },
     {
         title: "Natural",
         highlight: "Bleeder Remedy",
-        image: "/assets/bleeder-remedy.jpg",
+        image: getAssetPath("/assets/bleeder-remedy.jpg"),
         reverse: true,
     },
 ];
+

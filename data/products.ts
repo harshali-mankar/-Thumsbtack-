@@ -1,3 +1,5 @@
+import { getAssetPath } from "../utils/basePath";
+
 export interface ProductItem {
   id: string;
   name: string;
@@ -17,7 +19,7 @@ export const products: ProductItem[] = [
     description: "Horse race performance muscle formula for endurance & recovery.",
     price: 149.00,
     priceColor: "custom.shopOrange",
-    image: "/assets/products/unlock.png",
+    image: getAssetPath("/assets/products/unlock.png"),
     supports: ["Endurance", "Recovery"],
     buttonText: "Shop Now",
     buttonVariant: "outlined",
@@ -28,7 +30,7 @@ export const products: ProductItem[] = [
     description: "Joint support formula for cartilage, flexibility and joint health.",
     price: 149.00,
     priceColor: "custom.shopBlue",
-    image: "/assets/products/flexify.png",
+    image: getAssetPath("/assets/products/flexify.png"),
     supports: ["Joint Health"],
     buttonText: "Shop Now",
     buttonVariant: "outlined",
@@ -39,7 +41,7 @@ export const products: ProductItem[] = [
     description: "All-natural blood builder optimises oxygen levels.",
     price: 149.00,
     priceColor: "custom.shopEquine",
-    image: "/assets/products/epo.png",
+    image: getAssetPath("/assets/products/epo.png"),
     supports: ["Oxygen Levels"],
     buttonText: "Shop Now",
     buttonVariant: "outlined",
@@ -50,7 +52,7 @@ export const products: ProductItem[] = [
     description: "One-of-a-kind respiratory formula. Now comes in a powder.",
     price: 149.00,
     priceColor: "custom.shopBleeder",
-    image: "/assets/products/bleeder.png",
+    image: getAssetPath("/assets/products/bleeder.png"),
     supports: ["Lungs Support"],
     buttonText: "Shop Now",
     buttonVariant: "outlined",

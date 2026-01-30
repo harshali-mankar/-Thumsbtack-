@@ -1,7 +1,9 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/-Thumsbtack-',
-  assetPrefix: '/-Thumsbtack-/',
+  basePath: isProd ? '/-Thumsbtack-' : '',
+  assetPrefix: isProd ? '/-Thumsbtack-/' : '',
   images: {
     unoptimized: true,
   },

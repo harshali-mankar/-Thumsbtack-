@@ -3,11 +3,12 @@ import Inventory2Icon from '@mui/icons-material/Inventory2';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import StarIcon from '@mui/icons-material/Star';
+import { getAssetPath } from "../utils/basePath";
 
 const features = [
-  { text: "Never Got Returned Products", img: "/assets/hero-icons/Package.svg", icon: <Inventory2Icon /> },
-  { text: "Fast Delivery", img: "/assets/hero-icons/Delivery 4.svg", icon: <LocalShippingIcon /> },
-  { text: "Customer Support", img: "/assets/hero-icons/Customer-Service 3.svg", icon: <SupportAgentIcon /> },
+  { text: "Never Got Returned Products", img: getAssetPath("/assets/hero-icons/Package.svg"), icon: <Inventory2Icon /> },
+  { text: "Fast Delivery", img: getAssetPath("/assets/hero-icons/Delivery 4.svg"), icon: <LocalShippingIcon /> },
+  { text: "Customer Support", img: getAssetPath("/assets/hero-icons/Customer-Service 3.svg"), icon: <SupportAgentIcon /> },
   { text: "Premimum Quality", icon: <StarIcon /> },
 ];
 
