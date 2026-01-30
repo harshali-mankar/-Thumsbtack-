@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Lufga';
+    src: url('/fonts/FONTSPRINGDEMO-LufgaSemiBoldRegular.woff2') format('woff2'),
+        url('/fonts/FONTSPRINGDEMO-LufgaSemiBoldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga';
+    src: url('/fonts/FONTSPRINGDEMO-LufgaBold.woff2') format('woff2'),
+        url('/fonts/FONTSPRINGDEMO-LufgaBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-red: #DF3F44;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-content: #414142;
+    --color-red-light: #FFE0E0;
+    --color-shop-orange: #F58220;
+    --color-shop-blue: #00B0AD;
+    --color-shop-equine: #9E3023;
+    --color-shop-bleeder: #663179;
+}
