@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Thumsbtack',
+  basePath: '/-Thumsbtack-',
+  assetPrefix: '/-Thumsbtack-/',
   images: {
     unoptimized: true,
   },
